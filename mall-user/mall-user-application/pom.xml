@@ -11,6 +11,19 @@
 
     <artifactId>mall-user-application</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.hzz</groupId>
+            <artifactId>mall-ddd-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
